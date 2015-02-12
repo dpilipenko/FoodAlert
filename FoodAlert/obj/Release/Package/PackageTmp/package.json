@@ -1,0 +1,14 @@
+{
+  "name": "FoodAlert",
+  "version": "0.0.0",
+  "description": "FoodAlert",
+  "main": "server.js",
+  "author": {
+    "name": "dpilipen",
+    "email": ""
+  },
+  "dependencies": {
+    "express": "^4.11.2",
+    "node-twitterbot": "^0.2.2"
+  }
+}
