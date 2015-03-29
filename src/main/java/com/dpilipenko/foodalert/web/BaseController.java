@@ -2,7 +2,6 @@ package com.dpilipenko.foodalert.web;
 
 import com.dpilipenko.foodalert.core.ImageUtil;
 import org.apache.log4j.Logger;
-import org.springframework.context.ApplicationContext;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
@@ -20,7 +19,7 @@ public class BaseController {
 
   Logger log = Logger.getLogger(BaseController.class);
 
-	@RequestMapping(value = "/get", produces = "image/png")
+	@RequestMapping(value = "/image", produces = "image/png")
 	public @ResponseBody byte[] doGet(
 	) {
 	  try {
